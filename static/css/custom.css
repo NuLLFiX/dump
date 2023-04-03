@@ -1,0 +1,116 @@
+body {
+    margin-top: 70px;
+}
+
+.lexers {
+    margin-bottom: 20px;
+    margin-top: 0.5em;
+    margin-left: -8px;
+}
+
+    .more-lexers {
+        background-color: white;
+        display: none;
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        height: 200px;
+        width: 300px;
+        overflow: auto;
+        border: 1px solid #666;
+        padding: 0.5em;
+        z-index: 10;
+    }
+
+    .lexers a, .more-lexers a {
+        text-decoration: none;
+        margin-left: 8px;
+    }
+
+    .more-lexers a {
+        display: block;
+    }
+
+    .more-lexers a:hover {
+        background-color: #3399fe;
+        color: white !important;
+    }
+
+
+    .lexers a.selected {
+        color: black;
+        font-weight: bold;
+    }
+
+    .lexers a.more {
+        color: #7b7b7b;
+        margin-left: 1em;
+    }
+
+pre {
+    background-color: transparent;
+    border: none;
+}
+
+.dump-code {
+    background-color: #fdfdfd;
+    padding: 2px;
+    border: 1px dashed #ddd;
+    font-family: monospace;
+    font-size: 1.3em;
+    overflow-x: auto;
+}
+
+.dump-code .highlight {
+    background-color: #fdfdfd;
+    padding-left: 5px;
+}
+
+.dump-code .linenos, .dump-code .linenos pre {
+    color: #999;
+}
+
+.sharing {}
+
+    .sharing-button {
+        background-color: #eee;
+        border: 1px solid #999;
+        color: #666;
+        margin-left: 1em;
+        padding: 0.2em;
+    }
+
+    .sharing .done {
+        padding-left: 1em;
+        color: green;
+        display: none;
+    }
+
+    .sharing .note {
+        clear: both;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 1.2em;
+    }
+
+.errorlist {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+    .errorlist li {
+        list-style-type: none;
+        color: red;
+    }
+
+/* CSS Document */
+.breakingNews{width:100%; height:40px; background:#FFF; position:relative; border:solid 1px #000; overflow:hidden;}
+.breakingNews>.bn-title{width:auto; height:40px; display:inline-block; background:#333; position:relative;}
+.breakingNews>.bn-title>h2{display:inline-block; margin:0; padding:0 20px; line-height:40px; font-size:20px; color:#FFF; height:40px; box-sizing:border-box;}
+.breakingNews>.bn-title>span{width: 0;position:absolute;right:-10px;top:10px;height: 0;border-style: solid;border-width: 10px 0 10px 10px;border-color: transparent transparent transparent #333;}
+
+.breakingNews>ul{padding:0; margin:0; list-style:none; position:absolute; left:130px; top:0; right:40px; height:40px; font-size:20px;}
+.breakingNews>ul>li{height:40px; width:100%; line-height:40px;}
+.breakingNews>ul>li>a{text-decoration:none; color:#333; overflow:hidden; display:block; white-space: nowrap;text-overflow: ellipsis; font-weight:normal;}
+.breakingNews>ul>li>a>span{color:#333;}
+.breakingNews>ul>li>a:hover{color:#333;}
